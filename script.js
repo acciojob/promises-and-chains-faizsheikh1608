@@ -13,7 +13,7 @@ btn.addEventListener('click',() =>{
 	let promise = new Promise((resolve,reject) => {
 		
 		if(age > 18){
-			resolve(`Welcome ${name}. You can vote.`)
+			resolve(`Welcome, ${name}. You can vote.`)
 		}else{
 		reject(`Oh sorry ${name}. You aren't old enough.`)
 		}
