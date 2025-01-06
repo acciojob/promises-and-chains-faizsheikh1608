@@ -4,10 +4,7 @@ const btn = document.querySelector("#btn");
   const age = Number(document.querySelector("#age").value.trim());
 
 btn.addEventListener('click',() =>{
-	  if (!name || !age) {
-    alert("Both fields are required!");
-    return;
-  }
+	 
 	let promise = new Promise((resolve,reject) => {
 		const age = (age);
 		if(age > 18){
