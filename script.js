@@ -1,10 +1,10 @@
 //your JS code here. If required.
 const btn = document.querySelector("#btn");
- const name = document.querySelector("#name").value.trim();
-  const age = Number(document.querySelector("#age").value.trim());
 
 btn.addEventListener('click',() =>{
 	 
+ const name = document.querySelector("#name").value.trim();
+  const age = Number(document.querySelector("#age").value.trim());
 	let promise = new Promise((resolve,reject) => {
 		
 		if(age > 18){
