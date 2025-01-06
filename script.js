@@ -6,7 +6,7 @@ const btn = document.querySelector("#btn");
 btn.addEventListener('click',() =>{
 	 
 	let promise = new Promise((resolve,reject) => {
-		const age = (age);
+		
 		if(age > 18){
 			resolve(`Welcome ${name}, You can vote.`)
 		}else{
